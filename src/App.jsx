@@ -1,6 +1,10 @@
-import { Route, Routes } from 'react-router-dom'
-import Layout from './components/Layout'
-import './styles/App.scss'
+import { Route, Routes } from 'react-router-dom';
+
+import './global_styles/App.scss';
+
+import Layout from './components/Layout';
+import Home from './pages/Home/Home';
+
 
 
 function App() {
@@ -10,7 +14,8 @@ function App() {
     <>
       <Routes>
         {/*Base Navigation Routes*/}
-        <Route path='/' element={<Layout />} >
+        <Route path='/' element={<Layout />}>
+          <Route index element={<Home />} />
 
         </Route>
 

@@ -47,12 +47,14 @@ const Sidebar = () =>{
                 </NavLink>
             </nav>
             <ul>
+                {/*LinkedIn anchor*/}
                 <li>
                     <a target='_blank' rel='noreferrer' href='#'>
                         <FaLinkedin size={20} />
                     </a>
                 </li>
-
+                
+                {/*Github anchor*/}
                 <li>
                     <a target='_blank' rel='noreferrer' href='#'>
                         <FaSquareGithub size={20} />

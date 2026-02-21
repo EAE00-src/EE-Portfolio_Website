@@ -1,3 +1,5 @@
+@import '../../global_styles/variables';
+
 .nav-bar {
     background: #181818;
     width: 60px;
@@ -34,7 +36,7 @@
 
         a {
             font-size: 22px;
-            color: #4d4d4e;
+            color: $default-iconclr;
             display: block;
             line-height: 51px;
             height: 51px;
@@ -110,7 +112,7 @@
                 display: block;
                 font-size: 15px;
                 line-height: 16px;
-                color: #4d4d4e;
+                color: $default-iconclr;
                 transition: color 0.3s ease;
 
                 &:hover {

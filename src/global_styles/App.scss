@@ -25,6 +25,13 @@
   font-family: 'Jetbrains Mono';
   src: url('../assets/fonts/JetBrainsMono-BoldItalic.woff2') format('woff2');
   font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Betania Patmos In';
+  src: url('../assets/fonts/BetaniaPatmosIn-Regular.woff2') format('woff2');
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
