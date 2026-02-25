@@ -1,17 +1,21 @@
 import './animation.scss'
 
-const AnimatedLetters = ({ letterClass, strArray, idx }) => {
+const AnimatedLetters = ({ letterClass, text, startIdx = 1, disableDelay = false }) => {
     return (
         <span>
             {
-                 strArray.map((char, i) => (
-                    <span key={char + i} className={`${letterClass} _${i + idx}`}>
+                 text.split('').map((char, i) => (
+                    <span 
+                        key={char + i} 
+                        className={`${letterClass} _${i + startIdx}`} 
+                        style={!disableDelay ? {animationDelay: `${(i + startIdx) / 10}s`} : {}}
+                    >
                         {char}
                     </span>
                  ))
             }
         </span>
-    )
+    );
 };
 
 export default AnimatedLetters

@@ -4,17 +4,24 @@ import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import logoInit from '../../assets/images/e-initial-logo-transparent.png';
 import AnimatedLetters from '../../components/AnimatedLetters/animation_helper';
+import Logo from '../../components/Animated_Logo/Logo';
+import Test from '../../components/Animated_Logo/test';
+import TestTwo from '../../components/Animated_Logo/Test2';
+
+
 
 
 const Home = () => {
     
     const [letterClass, setLetterClass] = useState('text-animate');
-    const nameArray = ['d', 'w', 'i', 'n'];
-    const profArray = ['w', 'e', 'b', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.'];
+    const [disabledState, setDisabledState] = useState(false);
+    const name = 'dwin,';
+    const profession = 'a web developer.'
 
     useEffect(() => {
         const timeoutId = setTimeout(() =>{
             setLetterClass('text-animate-hover')
+            setDisabledState(true)
             //4 second delay 
         }, 4000);
         //timeout cleanup
@@ -25,26 +32,23 @@ const Home = () => {
         <div className="container home-page">
             <div className="text-zone">
                 <h1>
-                    <span className={`${letterClass} `}>H</span>
-                    <span className={`${letterClass} _10`}>i</span>
-                    <span className={`${letterClass} _11`}>,</span>
+                    <AnimatedLetters letterClass={letterClass} text={`Hi,`} startIdx={12} disableDelay={disabledState} />
                     
                 <br /> 
-                    <span className={`${letterClass} _12`}>I</span>
-                    <span className={`${letterClass} _13`}>'</span>
-                    <span className={`${letterClass} _14`}>m</span>
+                    <AnimatedLetters letterClass={letterClass} text={`I'm`} startIdx={15} disableDelay={disabledState} />
                 <img src={logoInit} alt='developer'/>
                 
-                <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15} />
+                <AnimatedLetters letterClass={letterClass} text={name} startIdx={18} disableDelay={disabledState} />
                 <br />
                 
-                <AnimatedLetters letterClass={letterClass} strArray={profArray} idx={22} />
+                <AnimatedLetters letterClass={letterClass} text={profession} startIdx={24} disableDelay={disabledState} />
                 </h1>
                 <h2>
                     Frontend developer / JavaScript / React
                 </h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
+            <TestTwo />
         </div>
     )
 }
