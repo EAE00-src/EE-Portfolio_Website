@@ -1,3 +1,5 @@
+@use '../../global_styles/variables' as *;
+
 .home-page {
     .text-zone {
         position: absolute;
@@ -16,7 +18,7 @@
         &::before {
             content: '<h1>';
             font-family: 'Betania Patmos In', 'Jetbrains Mono', monospace;
-            color: #ffd700;
+            color: $subprimary-clr;
             font-size: 18px;
             position: absolute;
             margin-top: -40px;
@@ -28,7 +30,7 @@
         &::after {
             content: '</h1>';
             font-family: 'Betania Patmos In', 'Jetbrains Mono', monospace;
-            color: #ffd700;
+            color: $subprimary-clr;
             font-size: 18px;
             position: absolute;
             margin-top: 18px;
@@ -57,7 +59,7 @@
         animation: lightSpeedInLeft 1s 1.8s backwards;
     }
     .flat-button {
-        color: #ffd700;
+        color: $subprimary-clr;
         font-size: 13px;
         font-weight: 400px;
         letter-spacing: 4px;
@@ -65,13 +67,13 @@
         text-decoration: none;
         padding: 10px 18px;
         margin-top: 25px;
-        border: 1px solid #ffd700;
+        border: 1px solid $subprimary-clr;
         float: left;
         animation: lightSpeedInLeft 1s 1.8s backwards;
         white-space: nowrap;
 
         &:hover {
-            background: #ffd700;
+            background: $subprimary-clr;
             color: #333;
         }
     }

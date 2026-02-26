@@ -5,8 +5,6 @@ import { useEffect, useState } from 'react';
 import logoInit from '../../assets/images/e-initial-logo-transparent.png';
 import AnimatedLetters from '../../components/AnimatedLetters/animation_helper';
 import Logo from '../../components/Animated_Logo/Logo';
-import Test from '../../components/Animated_Logo/test';
-import TestTwo from '../../components/Animated_Logo/Test2';
 
 
 
@@ -18,15 +16,17 @@ const Home = () => {
     const name = 'dwin,';
     const profession = 'a web developer.'
 
+    //Timed class swap once animation finishes 
+        // & termination of animation delay inline style
     useEffect(() => {
         const timeoutId = setTimeout(() =>{
             setLetterClass('text-animate-hover')
             setDisabledState(true)
             //4 second delay 
-        }, 4000);
+        }, 3500);
         //timeout cleanup
         return () => {clearTimeout(timeoutId)}
-    }, [])
+    }, []);
 
     return (
         <div className="container home-page">
@@ -48,7 +48,7 @@ const Home = () => {
                 </h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
-            <TestTwo />
+            <Logo />
         </div>
     )
 }

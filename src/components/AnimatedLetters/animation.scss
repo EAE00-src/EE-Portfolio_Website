@@ -1,9 +1,10 @@
+@use '../../global_styles/variables' as *;
+
 .text-animate {
     display: inline-block;
     opacity: 0;
     animation-name: bounceIn;
     animation-duration: 1.5s;
-    animation-delay: 1s;
     animation-fill-mode: forwards;
     min-width: 10px;
 
@@ -16,13 +17,13 @@
 
         &:hover {
             animation-name: jello;
-            animation-duration: 1s;
+            animation-duration: 0.8s;
             animation-fill-mode: both;
-            color: #ffd700;
+            color: $subprimary-clr;
         }
-    }
+}
 
-/*@for $i from 1 through 100 {
+/*(OBSOLETE/FALLBACK) @for $i from 1 through 100 {
     .text-animate._#{i} {
         animation-delay: #{i / 10}s;
     }

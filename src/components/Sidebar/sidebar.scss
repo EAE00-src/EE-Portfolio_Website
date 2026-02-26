@@ -48,7 +48,7 @@
             }
 
             &:hover {
-                color: #ffd700;
+                color: $subprimary-clr;
 
                 svg {
                     opacity: 0;
@@ -89,7 +89,7 @@
             }
             &.active {
                 svg{
-                    color: #ffd700;
+                    color: $subprimary-clr;
                 }
             }
 
@@ -116,7 +116,7 @@
                 transition: color 0.3s ease;
 
                 &:hover {
-                    color: #ffd700; 
+                    color: $subprimary-clr; 
                 }
             }
         }
