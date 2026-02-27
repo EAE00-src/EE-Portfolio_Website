@@ -1,0 +1,97 @@
+@use '../../global_styles/variables' as *;
+
+.contact-form {
+    width: 100%;
+    margin-top: 20px;
+
+    ul {
+        padding: 0;
+        margin: 0;
+
+        li {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            margin-bottom: 10px;
+            overflow: hidden;
+            display: block;
+            position: relative;
+            opacity: 0;
+            animation: rotateInUpLeft 1.5s 2s;
+            animation-fill-mode: forwards;
+            clear: both;
+        }
+        li.half {
+            width: 49%;
+            margin-left: 2%;
+            float: left;
+            clear: none;
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+    input[type='text'],
+    input[type='email'] {
+        width: 100%;
+        border: 0;
+        background: #115173;
+        height: 50px;
+        font-size: 16px;
+        color: #fff;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    textarea {
+        width: 100%;
+        border: 0;
+        background: #115173;
+        height: 50px;
+        font-size: 16px;
+        color: #fff;
+        padding: 20px;
+        min-height: 150px;
+        box-sizing: border-box;
+    }
+    .flat-button {
+        color: $subprimary-clr;
+        background: 0 0;
+        font-size: 11px;
+        letter-spacing: 3px;
+        text-decoration: none;
+        padding: 8px 10px;
+        border: 1px solid $subprimary-clr;
+        float: right;
+        border-radius: 4px;
+        cursor: pointer;
+
+        &:disabled {
+            color: #ccc;
+            opacity: 0.7;
+            cursor: not-allowed;
+        }
+    }
+}
+.info {
+    position: absolute;
+    background-color: #000;
+    top: 50px;
+    right: 25%;
+    z-index: 3;
+    width: 267px;
+    padding: 20px;
+    color: #fff;
+    font-family: 'Jetbrains Mono', monospace;
+    font-size: 17px;
+    font-weight: 400;
+    opacity: 0;
+    animation: fadeIn 1s 1.5s;
+    animation-fill-mode: forwards;
+
+    span {
+        font-size: 16px;
+        display: block;
+        padding-top: 20px;
+        color: $subprimary-clr;
+    }
+}

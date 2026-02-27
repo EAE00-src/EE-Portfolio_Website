@@ -15,7 +15,7 @@ const About = () => {
             const timeoutId = setTimeout(() =>{
                 setLetterClass('text-animate-hover')
                 setDisabledState(true)
-                //4 second delay 
+                //x second delay (milliseconds)
             }, 3000);
             //timeout cleanup
             return () => {clearTimeout(timeoutId)}

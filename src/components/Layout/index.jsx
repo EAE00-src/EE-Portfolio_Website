@@ -31,8 +31,8 @@ const Layout = () =>{
             <div className='page'>
                 <DecoTags tag={`body`} tagType='tags top-tags' />
                 {/*If loading is true, display the loader until false state returns.
-            loading controls fade direction, visible controls mount/unmount*/}
-            {loading && <Loader />}
+                loading controls fade direction, visible controls mount/unmount*/}
+                {loading && <Loader />}
                 <Outlet />
 
                 <span className="tags bottom-tags">

@@ -5,10 +5,12 @@ import './global_styles/App.scss';
 
 import Layout from './components/Layout';
 import Loader from './components/Loader/Loader';
-//import Home from './pages/Home/Home';
+//lazy import Home
 const Home = lazy(() => import('./pages/Home/Home'));
-//import About from './pages/About/About';
+//lazy import About
 const About = lazy(() => import('./pages/About/About'));
+//lazy import Contact 
+const Contact = lazy(() => import('./pages/Contact/Contact'));
 
 
 
@@ -23,6 +25,7 @@ function App() {
         <Route path='/' element={<Layout />}>
           <Route index element={<Home />} />
           <Route path='about' element={<About />} />
+          <Route path='contact' element={<Contact />} />
 
         </Route>
 
