@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 import logoInit from '../../assets/images/e-initial-logo-transparent.png';
 import logoName from '../../assets/images/EAE-logo.png';
 import './sidebar.scss'
-import { FaEnvelope, FaGitSquare, FaHome, FaUser } from 'react-icons/fa';
+import { FaEnvelope, FaHome, FaLaptopCode, FaUser } from 'react-icons/fa';
 import { FaLinkedin, FaSquareGithub } from 'react-icons/fa6';
 
 const Sidebar = () =>{
@@ -22,8 +22,9 @@ const Sidebar = () =>{
                     className={({isActive}) => 
                     isActive ? 'active' : ''
                     }
+                    aria-label='Go to Home Page'
                 >
-                    <FaHome size={20} />
+                    <FaHome size={20} aria-hidden='true' />
                 </NavLink>
 
                 {/*About Nav*/}
@@ -32,8 +33,20 @@ const Sidebar = () =>{
                     className={({isActive}) =>
                     `about-link ${isActive ? 'active' : ''}`
                     }
+                    aria-label='Go to About Page'
                 >
-                    <FaUser size={20} />
+                    <FaUser size={20} aria-hidden='true' />
+                </NavLink>
+
+                {/*Portfolio Nav*/}
+                <NavLink 
+                    to='/portfolio'
+                    className={({isActive}) =>
+                    `portfolio-link ${isActive ? 'active' : ''}`
+                    }
+                    aria-label='Go to Portfolio Page'
+                >
+                    <FaLaptopCode size={20} aria-hidden='true' />
                 </NavLink>
 
                 {/*Contact Nav*/}
@@ -42,22 +55,23 @@ const Sidebar = () =>{
                     className={({isActive}) =>
                      `contact-link ${isActive ? 'active' : ''}`
                     }
+                    aria-label='Go to Contacts Page'
                 >
-                    <FaEnvelope size={20} />
+                    <FaEnvelope size={20} aria-hidden='true' />
                 </NavLink>
             </nav>
             <ul>
                 {/*LinkedIn anchor*/}
                 <li>
-                    <a target='_blank' rel='noreferrer' href='#'>
-                        <FaLinkedin size={20} />
+                    <a target='_blank' rel='noreferrer' aria-label='Go to LinkedIn' href='#'>
+                        <FaLinkedin size={20} aria-hidden='true' />
                     </a>
                 </li>
                 
                 {/*Github anchor*/}
                 <li>
-                    <a target='_blank' rel='noreferrer' href='#'>
-                        <FaSquareGithub size={20} />
+                    <a target='_blank' rel='noreferrer' aria-label='Go to GitHub' href='#'>
+                        <FaSquareGithub size={20} aria-hidden='true' />
                     </a>
                 </li>
             </ul>

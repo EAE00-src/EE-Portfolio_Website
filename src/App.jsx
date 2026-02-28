@@ -11,6 +11,8 @@ const Home = lazy(() => import('./pages/Home/Home'));
 const About = lazy(() => import('./pages/About/About'));
 //lazy import Contact 
 const Contact = lazy(() => import('./pages/Contact/Contact'));
+//lazy import Portfolio
+const Portfolio = lazy(() => import('./pages/Portfolio/Portfolio'));
 
 
 
@@ -26,11 +28,12 @@ function App() {
           <Route index element={<Home />} />
           <Route path='about' element={<About />} />
           <Route path='contact' element={<Contact />} />
+          <Route path='portfolio' element={<Portfolio />} />
 
         </Route>
 
         {/*404 Not Found Route*/}
-        <Route />
+        {/*<Route path='/*' element={} />*/}
       </Routes>
     </Suspense>
     </>

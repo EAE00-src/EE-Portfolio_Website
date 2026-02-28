@@ -44,7 +44,8 @@
 }
 /*general layouts*/
 .container.about-page, 
-.container.contact-page {
+.container.contact-page,
+.container.portfolio-page {
     .text-zone {
         position: absolute;
         left: 10%;
@@ -54,8 +55,9 @@
         vertical-align: middle;
         display: table-cell;
         max-height: 90%;
-
-        h1 {
+    }
+    
+    h1 {
             font-size: 53px;
             font-family: 'Inter', sans-serif;
             color: $subprimary-clr;
@@ -109,7 +111,6 @@
                 animation-delay: 1.3s;
             }
         }
-    }
 
     .text-animate-hover {
         &:hover {

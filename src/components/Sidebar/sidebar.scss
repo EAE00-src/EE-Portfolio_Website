@@ -81,6 +81,11 @@
                     content: 'ABOUT';
                 }
             }
+            &.portfolio-link {
+                &::after {
+                    content: 'PORTFOLIO';
+                }
+            }
 
             &.contact-link {
                 &::after {
