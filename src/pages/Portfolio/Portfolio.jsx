@@ -17,7 +17,7 @@ const Portfolio = () => {
                 setLetterClass('text-animate-hover')
                 setDisabledState(true)
                 //x second delay (milliseconds)
-                }, 3000);
+                }, 2800);
                 //timeout cleanup
                 return () => {clearTimeout(timeoutId)}
             //fire once upon rendering
@@ -30,7 +30,7 @@ const Portfolio = () => {
                 <AnimatedLetters 
                     letterClass={letterClass} 
                     text={`Portfolio`} 
-                    startIdx={12} 
+                    startIdx={11} 
                     disableDelay={disabledState} 
                 />
             </h1>
