@@ -54,13 +54,13 @@
         box-sizing: border-box;
     }
     .flat-button {
-        color: $subprimary-clr;
+        color: $primary-red;
         background: 0 0;
         font-size: 11px;
         letter-spacing: 3px;
         text-decoration: none;
         padding: 8px 10px;
-        border: 1px solid $subprimary-clr;
+        border: 1px solid $primary-red;
         float: right;
         border-radius: 4px;
         cursor: pointer;
@@ -72,6 +72,7 @@
         }
     }
 }
+
 .info {
     position: absolute;
     background-color: #000;
@@ -92,11 +93,11 @@
         font-size: 16px;
         display: block;
         padding-top: 20px;
-        color: $subprimary-clr;
+        color: $primary-red;
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
     .info {
         position: initial;
         margin: auto;

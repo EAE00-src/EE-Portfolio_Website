@@ -90,27 +90,28 @@ const Contact = () => {
                     <form ref={formRef} onSubmit={sendEmail}>
                         <ul>
                             <li className='half'>
-                                <input type='text' name='name' placeholder='Name' autoComplete='given-name' required />
+                                <input type='text' name='name' placeholder='Name' autoComplete='given-name' aria-label='name' required />
                             </li>
                             <li className='half'>
-                                <input type='email' name='email' placeholder='Email' autoComplete='email' required />
+                                <input type='email' name='email' placeholder='Email' autoComplete='email' aria-label='email' required />
                             </li>
                             <li>
-                                <input type='text' name='company' placeholder='Company (Optional)' />
+                                <input type='text' name='company' placeholder='Company (Optional)' aria-label='company (optional)' />
                             </li>
                             <li>
-                                <input type='text' name='subject' placeholder='Subject' required />
+                                <input type='text' name='subject' placeholder='Subject' aria-label='subject' required />
                             </li>
                             <li>
-                                <textarea placeholder='Message' name='message' required></textarea>
+                                <textarea placeholder='Message' name='message' aria-label='message' required></textarea>
                             </li>
                             <li>
-                                <input type='hidden' name='date_sent' />
+                                <input type='hidden' name='date_sent' aria-label='timestamp (hidden)' />
                                 <input
                                     type='submit' 
                                     value={isSending ? 'SENDING...' : 'SEND'} 
                                     className='flat-button' 
                                     disabled={isSending} 
+                                    aria-label='Send button'
                                 />
                             </li>
                         </ul>

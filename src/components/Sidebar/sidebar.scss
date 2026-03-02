@@ -48,7 +48,7 @@
             }
 
             &:hover {
-                color: $subprimary-clr;
+                color: $primary-red;
 
                 svg {
                     opacity: 0;
@@ -94,7 +94,7 @@
             }
             &.active {
                 svg{
-                    color: $subprimary-clr;
+                    color: $primary-red;
                 }
             }
 
@@ -121,7 +121,7 @@
                 transition: color 0.3s ease;
 
                 &:hover {
-                    color: $subprimary-clr; 
+                    color: $primary-red; 
                 }
             }
         }
@@ -133,7 +133,7 @@
 }
 
 /*Media Query tablets?*/
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
     .nav-bar {
         background: transparent;
         position: initial;
@@ -162,6 +162,7 @@
             margin: 0;
 
             a {
+                top: 20%;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -172,7 +173,8 @@
                 position: initial;
                 width: auto;
                 margin-left: 10px;
-                color: #ffd700;
+                color: $primary-red;
+                font-size: 16px;
             }
 
             a svg {

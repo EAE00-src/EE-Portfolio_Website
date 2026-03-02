@@ -2,7 +2,21 @@
     "projects" : [
         {
             "id": 1,
-            "cover": "public/project_thumbnails/Kasa_project_thumb.png",
+            "cover": "/project_thumbnails/Kasa_project_optim.webp",
+            "title": "Kasa Real Estate Single Page Application",
+            "description" : "Vite, React, Sass, React-router-dom, prop-types",
+            "url": "https://github.com/EAE00-src/Kasa_Web-App_React.git"
+        },
+        {
+            "id": 2,
+            "cover": "/project_thumbnails/MovieDB_project_optim.webp",
+            "title": "Kasa Real Estate Single Page Application",
+            "description" : "Vite, React, Sass, React-router-dom, prop-types",
+            "url": "https://github.com/EAE00-src/Kasa_Web-App_React.git"
+        },
+        {
+            "id": 3,
+            "cover": "/project_thumbnails/SophieBluel_Dynamicproj_optim.webp",
             "title": "Kasa Real Estate Single Page Application",
             "description" : "Vite, React, Sass, React-router-dom, prop-types",
             "url": "https://github.com/EAE00-src/Kasa_Web-App_React.git"

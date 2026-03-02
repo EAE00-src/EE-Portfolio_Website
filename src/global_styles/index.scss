@@ -8,11 +8,11 @@ html {
         font-size: 12px;
         line-height: 1.4;
         color: #444;
-        background: #022c43;
+        background: #20272F;
         overflow: hidden;
         display: block;
     }
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 1024px) {
         body {
             overflow: visible;
         }

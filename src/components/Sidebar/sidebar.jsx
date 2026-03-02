@@ -99,7 +99,7 @@ const Sidebar = () =>{
                 <IoIosCloseCircle
                     onClick={() => setShowNav(false)} 
                     className='close-icon'
-                    size={30} 
+                    size={55} 
                     color='#ffd700' 
                     aria-label='Close navigation menu'
                  />
@@ -123,7 +123,7 @@ const Sidebar = () =>{
             <GiHamburgerMenu 
                 onClick={() => setShowNav(true)} 
                 className='hamburger-icon' 
-                size={30} 
+                size={55} 
                 color='#ffd700'
                 aria-label='Open navigation menu'
             />
@@ -132,3 +132,4 @@ const Sidebar = () =>{
 };
 
 export default Sidebar;
+//#494D5F

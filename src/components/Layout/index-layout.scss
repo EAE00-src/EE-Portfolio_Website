@@ -13,7 +13,7 @@
 }
 
 .tags {
-    color: $subprimary-clr;
+    color: #eee;
     opacity: 0.6;
     position: absolute;
     bottom: 0;
@@ -21,7 +21,6 @@
     font-size: 18px;
     font-family: 'Betania Patmos In', monospace;
 
-    
 }
 
 .bottom-tag-html {
@@ -60,7 +59,7 @@
     h1 {
             font-size: 53px;
             font-family: 'Inter', sans-serif;
-            color: $subprimary-clr;
+            color: $primary-red;
             font-weight: 400;
             margin-top: 0;
             position: relative;
@@ -94,10 +93,10 @@
         }
 
         p {
-            font-size: 13px;
+            font-size: 15px;
             color: #FFF;
             font-family: 'Inter', sans-serif;
-            font-weight: 300;
+            font-weight: 500;
             min-width: fit-content;
             animation: pulse 1s;
 
@@ -119,7 +118,7 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
     .page {
         position: initial;
     }

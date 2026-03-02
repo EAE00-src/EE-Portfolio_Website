@@ -2,9 +2,10 @@ import '../../global_styles/index.scss';
 import './index-layout.scss';
 
 import { Outlet, useLocation } from 'react-router-dom';
-import { useEffect, useState } from 'react';
+import { lazy, useEffect, useState } from 'react';
 
-import Loader from '../Loader/Loader';
+//import Loader from '../Loader/Loader';
+const Loader = lazy(() => import('../Loader/Loader'));
 import Sidebar from '../Sidebar/sidebar';
 import DecoTags from '../Decotags/Decotags';
 
@@ -28,7 +29,7 @@ const Layout = () =>{
         <div className='app'>
             
             <Sidebar />
-            <div className='page'>
+            <main className='page'>
                 <DecoTags tag={`body`} tagType='tags top-tags' />
                 {/*If loading is true, display the loader until false state returns.
                 loading controls fade direction, visible controls mount/unmount*/}
@@ -41,7 +42,7 @@ const Layout = () =>{
                     <DecoTags tag="/html" tagType="bottom-tag-html" />
                 </span>
 
-            </div>
+            </main>
         </div>
     )
 };

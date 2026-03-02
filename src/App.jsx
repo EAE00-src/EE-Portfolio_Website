@@ -6,7 +6,7 @@ import './global_styles/App.scss';
 import Layout from './components/Layout';
 import Loader from './components/Loader/Loader';
 //lazy import Home
-const Home = lazy(() => import('./pages/Home/Home'));
+import Home from './pages/Home/Home';
 //lazy import About
 const About = lazy(() => import('./pages/About/About'));
 //lazy import Contact 
