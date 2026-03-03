@@ -5,6 +5,7 @@ import './global_styles/App.scss';
 
 import Layout from './components/Layout';
 import Loader from './components/Loader/Loader';
+import Error from './pages/Error/Error';
 //lazy import Home
 import Home from './pages/Home/Home';
 //lazy import About
@@ -33,7 +34,7 @@ function App() {
         </Route>
 
         {/*404 Not Found Route*/}
-        {/*<Route path='/*' element={} />*/}
+        {<Route path='/*' element={<Error />} />}
       </Routes>
     </Suspense>
     </>

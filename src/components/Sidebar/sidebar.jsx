@@ -44,7 +44,7 @@ const Sidebar = () =>{
                 </svg>
             </Link>
             {/*Mobile navbar-fill*/}
-            {/*<div className='nav-bar-fill'></div>*/}
+            <div className='nav-bar-fill'></div>
 
             <nav className={showNav ? 'mobile-show' : ''}>
                 {/*Home Nav*/}
@@ -102,7 +102,7 @@ const Sidebar = () =>{
                     size={55} 
                     color='#ffd700' 
                     aria-label='Close navigation menu'
-                 />
+                />
             </nav>
             <ul>
                 {/*LinkedIn anchor*/}
@@ -114,7 +114,7 @@ const Sidebar = () =>{
                 
                 {/*Github anchor*/}
                 <li>
-                    <a target='_blank' rel='noreferrer' aria-label='Go to GitHub' href='#'>
+                    <a target='_blank' rel='noreferrer' aria-label='Go to GitHub' href='https://github.com/EAE00-src'>
                         <FaSquareGithub size={20} aria-hidden='true' />
                     </a>
                 </li>

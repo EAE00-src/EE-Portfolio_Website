@@ -50,7 +50,7 @@ const Home = () => {
                 <AnimatedLetters letterClass={letterClass} text={profession} startIdx={23} disableDelay={disabledState} />
                 </h1>
                 <h2>
-                    Frontend developer / JavaScript / React
+                    Frontend developer / JavaScript / React / Node.js
                 </h2>
                 <Link to="/contact" className='flat-button' aria-label='Contact page'>CONTACT ME</Link>
             </div>

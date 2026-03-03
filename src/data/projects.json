@@ -3,23 +3,30 @@
         {
             "id": 1,
             "cover": "/project_thumbnails/Kasa_project_optim.webp",
-            "title": "Kasa Real Estate Single Page Application",
-            "description" : "Vite, React, Sass, React-router-dom, prop-types",
+            "title": "Kasa Real Estate",
+            "description" : "Property rental SPA | React - Vite - Sass - React Router",
             "url": "https://github.com/EAE00-src/Kasa_Web-App_React.git"
         },
         {
             "id": 2,
             "cover": "/project_thumbnails/MovieDB_project_optim.webp",
-            "title": "Kasa Real Estate Single Page Application",
-            "description" : "Vite, React, Sass, React-router-dom, prop-types",
-            "url": "https://github.com/EAE00-src/Kasa_Web-App_React.git"
+            "title": "MovieDB Tracker Web App",
+            "description" : "Movie search & watchlist tracker | React - CSS - TMDB API",
+            "url": "https://github.com/EAE00-src/MovieDB_Movie-Tracker"
         },
         {
             "id": 3,
             "cover": "/project_thumbnails/SophieBluel_Dynamicproj_optim.webp",
-            "title": "Kasa Real Estate Single Page Application",
-            "description" : "Vite, React, Sass, React-router-dom, prop-types",
-            "url": "https://github.com/EAE00-src/Kasa_Web-App_React.git"
+            "title": "Sophie Bluel Portfolio Management Tool",
+            "description" : "Frontend gallery with live API integration. Vanilla JS - DOM Manipulation - Modal",
+            "url": "https://github.com/EAE00-src/Dynamic_Webpage-Project"
+        },
+        {
+            "id": 4,
+            "cover": "/project_thumbnails/database-icon_optim.webp",
+            "title": "Backend Development: Mon Vieux Grimoire",
+            "description" : "RESTful API - Node.js - Express - MongoDB",
+            "url": "https://github.com/EAE00-src/backend-dev-nodejs-grimoire"
         }
     ]
 }

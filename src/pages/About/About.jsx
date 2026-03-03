@@ -29,19 +29,38 @@ const About = () => {
                 </h1>
 
                 <p>
-                    I'm a up-n-coming Front-end Developer looking for opportunity
+                    👋Hi, I'm <span className='about-span'>Edwin</span>, an emerging Front-End Developer excited to build intuitive, accessible, and remarkable digital user experiences.
                 </p>
 
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis fugit quaerat ea, architecto voluptate rem, a amet corporis exercitationem neque quam dolorum! Ratione harum ut blanditiis doloremque vitae! Quasi, similique.
+                    My journey began with a lifelong fascination with how technology shapes our modern world, 
+                    leading me to a simple realization: <span className='about-span'>I would love to be one of the people driving the industry forward!</span> 
+                    {' '}I've spent quite some time as a student of OpenClassrooms' Web Developer training program, 
+                    refining my ability to turn complex problems and designs into clean, functional code.
                 </p>
+                    <ul>
+                        <li>
+                            <p> 
+                                <span style={{fontStyle: 'italic', fontFamily:'Jetbrains Mono'}}>Skills:</span>
+                                <span style={{color:'#5ED4F4', fontStyle: 'italic', fontFamily:'Jetbrains Mono'}}> React </span> / 
+                                <span style={{color:'#68a063', fontStyle: 'italic', fontFamily:'Jetbrains Mono'}}> Node.js </span> / 
+                                <span style={{color:'#E6E6E6', fontStyle: 'italic', fontFamily:'Jetbrains Mono'}}> Express </span>/ 
+                                <span style={{color:'#589636', fontStyle: 'italic', fontFamily:'Jetbrains Mono'}}> MongoDB </span>/ 
+                                <span style={{color:'#EFD81D', fontStyle: 'italic', fontFamily:'Jetbrains Mono'}}> JavaScript (ES6+) </span>/ 
+                                <span style={{color:'#CD6799', fontStyle: 'italic', fontFamily:'Jetbrains Mono'}}> Sass </span>/ 
+                                <span style={{fontFamily:'Jetbrains Mono', fontStyle:'italic'}}> Agile</span>
+                            </p>
+                        </li>
+                        
+                    </ul>
                 <p>
-                    If I need to define myself in one sentence that would be a tech-enthusiast!!!
+                    I'm always looking for opportunities to grow as <span className='about-span'>I believe that technology should be a bridge,
+                    not a barrier.</span> {' '} So with that said, let's build something that makes a difference!
                 </p>
             </div>
 
             <div className='stage-cube-cont'>
-                <div className='cubespinner'>
+                <div className='cubespinner' aria-label='Animated cube showing my tech stack: HTML, CSS, JavaScript, React, MongoDB, and Node.js'>
                     <div className='face1'>
                         <div className='icon'>
                             <FaHtml5 color='#F06529' />

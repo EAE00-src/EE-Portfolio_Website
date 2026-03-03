@@ -1,5 +1,11 @@
 @use '../../global_styles/variables' as *;
 
+
+.about-span {
+    color: #ffd700;
+    font-style: italic;
+    font-weight: bold;
+}
 /*Cube SCSS*/
 .stage-cube-cont{
     width: 50%;
