@@ -34,7 +34,7 @@ function App() {
         </Route>
 
         {/*404 Not Found Route*/}
-        {<Route path='/*' element={<Error />} />}
+        <Route path='/*' element={<Error />} />
       </Routes>
     </Suspense>
     </>

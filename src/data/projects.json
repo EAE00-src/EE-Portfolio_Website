@@ -25,7 +25,7 @@
             "id": 4,
             "cover": "/project_thumbnails/database-icon_optim.webp",
             "title": "Backend Development: Mon Vieux Grimoire",
-            "description" : "RESTful API - Node.js - Express - MongoDB",
+            "description" : "RESTful API - Node.js - Express - MongoDB - JWT",
             "url": "https://github.com/EAE00-src/backend-dev-nodejs-grimoire"
         }
     ]
