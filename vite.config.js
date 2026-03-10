@@ -9,7 +9,7 @@ export default defineConfig({
     sitemapPlugin({
       hostname: 'https://EAE00-src.github.io/EE-Portfolio_Website/',
       dynamicRoutes: ['/EE-Portfolio_Website/', '/EE-Portfolio_Website/about', '/EE-Portfolio_Website/portfolio', '/EE-Portfolio_Website/contact'],
-      exclude: ['/EE-Portfolio_Website/404']
+      exclude: ['/EE-Portfolio_Website/404', '/404']
     })
   ],
 })
