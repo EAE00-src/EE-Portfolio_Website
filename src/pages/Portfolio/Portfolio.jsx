@@ -30,6 +30,7 @@ const Portfolio = () => {
         <Helmet>
             <title>Edwin Edouard | Portfolio</title>
             <meta name='description' content="Here are the projects I've worked on so far..." />
+            <link rel="canonical" href="https://eae00-src.github.io/EE-Portfolio_Website/portfolio" />
         </Helmet>
         <div className='container portfolio-page'>
             <h1 className='page-title'>

@@ -33,6 +33,7 @@ const Home = () => {
         <Helmet>
             <title>Edwin Edouard | Home</title>
             <meta name='description' content="Hi, I'm Edwin, a web developer. Come explore my site to see my works or contact me." />
+            <link rel="canonical" href="https://eae00-src.github.io/EE-Portfolio_Website/" />
         </Helmet>
         <div className="container home-page">
             <div className="text-zone">

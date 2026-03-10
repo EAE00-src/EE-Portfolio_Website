@@ -27,6 +27,7 @@ const About = () => {
         <Helmet>
             <title>Edwin Edouard | About</title>
             <meta name='description' content="Hi, I'm Edwin, an emerging Front-End Developer excited to build intuitive, accessible, and remarkable digital user experiences." />
+            <link rel="canonical" href="https://eae00-src.github.io/EE-Portfolio_Website/about" />
         </Helmet>
         <div className='container about-page'>
             <div className='text-zone'>

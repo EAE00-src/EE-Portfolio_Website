@@ -81,6 +81,7 @@ const Contact = () => {
             <meta name='description' content="I'm currently looking for my next challenge! Whether you need a freelance collaborator
                     or a dedicated full-time developer, I'm ready to jump in and create something wonderful!
                     Feel free to reach out!" />
+            <link rel="canonical" href="https://eae00-src.github.io/EE-Portfolio_Website/contact" />
         </Helmet>
         <div className='container contact-page'>
             <div className='text-zone'>
