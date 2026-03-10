@@ -36,6 +36,10 @@ const Contact = () => {
     //Send Email Function
     const sendEmail = async (e) =>{
         e.preventDefault();
+        if(formRef.current.phone_number.value) {
+            formRef.current.reset();
+            return;
+        }
         setIsSending(true);
 
         //create a timestamp for the email being sent
@@ -105,6 +109,9 @@ const Contact = () => {
                             </li>
                             <li>
                                 <input type='text' name='company' placeholder='Company (Optional)' aria-label='company (optional)' />
+                            </li>
+                            <li style={{display: 'none'}} aria-hidden='true' tabIndex='-1'>
+                                <input type='text' name='phone_number' placeholder='Phone #' tabIndex='-1' style={{display: 'none'}} aria-hidden='true' />
                             </li>
                             <li>
                                 <input type='text' name='subject' placeholder='Subject' aria-label='subject' required />
