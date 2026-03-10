@@ -4,8 +4,8 @@ import './index-layout.scss';
 import { Outlet, useLocation } from 'react-router-dom';
 import { lazy, useEffect, useState } from 'react';
 
-//import Loader from '../Loader/Loader';
-const Loader = lazy(() => import('../Loader/Loader'));
+import Loader from '../Loader/Loader';
+//const Loader = lazy(() => import('../Loader/Loader'));
 import Sidebar from '../Sidebar/sidebar';
 import DecoTags from '../Decotags/Decotags';
 
@@ -20,10 +20,10 @@ const Layout = () =>{
         setLoading(true)
         const timer = setTimeout(() => {
             setLoading(false)
-        }, 1000)
+        }, 700)
         //Every time the page (location) changes,  run the Loader for x second(s)
         return () => clearTimeout(timer)//cleanup
-    }, [location]);
+    }, [location.pathname]);
 
     return (
         <div className='app'>
@@ -32,9 +32,9 @@ const Layout = () =>{
             <main className='page'>
                 <DecoTags tag={`body`} tagType='tags top-tags' />
                 {/*If loading is true, display the loader until false state returns.
-                loading controls fade direction, visible controls mount/unmount*/}
-                {loading && <Loader />}
-                <Outlet />
+                Once loading is false, render the actual page content*/}
+                {loading ? <Loader /> : <Outlet />}
+                
 
                 <span className="tags bottom-tags">
                     <DecoTags tag="/body" />

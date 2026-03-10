@@ -66,7 +66,7 @@ const About = () => {
             </div>
 
             <div className='stage-cube-cont'>
-                <div className='cubespinner' aria-label='Animated cube showing my tech stack: HTML, CSS, JavaScript, React, MongoDB, and Node.js'>
+                <div className='cubespinner' role='img' aria-label='Animated cube showing my tech stack: HTML, CSS, JavaScript, React, MongoDB, and Node.js'>
                     <div className='face1'>
                         <div className='icon'>
                             <FaHtml5 color='#F06529' />
