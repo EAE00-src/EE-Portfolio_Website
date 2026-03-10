@@ -8,7 +8,8 @@ export default defineConfig({
     react(),
     sitemapPlugin({
       hostname: 'https://EAE00-src.github.io/EE-Portfolio_Website/',
-      dynamicRoutes: ['/', '/about', '/portfolio', '/contact']
+      dynamicRoutes: ['/EE-Portfolio_Website/', '/EE-Portfolio_Website/about', '/EE-Portfolio_Website/portfolio', '/EE-Portfolio_Website/contact'],
+      exclude: ['404']
     })
   ],
 })
