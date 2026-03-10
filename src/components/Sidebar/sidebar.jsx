@@ -113,7 +113,7 @@ const Sidebar = () =>{
                 {/*Github anchor*/}
                 <li>
                     <a target='_blank' rel='noreferrer' aria-label='Go to GitHub' href='https://github.com/EAE00-src'>
-                        <FaSquareGithub size={20} aria-hidden='true' />
+                        <FaSquareGithub size={28} aria-hidden='true' />
                     </a>
                 </li>
             </ul>

@@ -34,6 +34,13 @@
             "title": "Booki - Responsive Design Project",
             "description" : "Implementing a responsive interface with HTML & CSS",
             "url": "https://github.com/EAE00-src/Responsive_HTML-CSS_Project"
+        },
+        {
+            "id": 6,
+            "cover":"/project_thumbnails/Portfolio_thumb_optim.webp",
+            "title": "Edwin Edouard | Portfolio site",
+            "description": "Vite - React - React-Router - Sass - EmailJS - GSAP - Animate.css - etc. ",
+            "url": "https://github.com/EAE00-src/EE-Portfolio_Website"
         }
     ]
 }
