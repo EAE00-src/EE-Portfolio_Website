@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://EAE00-src.github.io/EE-Portfolio_Website/sitemap.xml
