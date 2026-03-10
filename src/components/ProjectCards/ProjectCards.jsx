@@ -7,7 +7,12 @@ const RenderProjects = ({project = []}) => {
             {
                 project.map((proj) => (
                     <div className="image-box" key={proj.id}>
-                        <img className="project-image" src={proj.cover} alt={proj.title} loading="lazy" />
+                        <img 
+                            className="project-image" 
+                            src={import.meta.env.BASE_URL + (proj.cover.startsWith('/') ? proj.cover.slice(1) : proj.cover)} 
+                            alt={proj.title} 
+                            loading="lazy"
+                         />
                         <div className="content">
                             <p className="title">{proj.title}</p>
                             <h4 className="description">{proj.description}</h4>
