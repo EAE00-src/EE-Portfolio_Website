@@ -1,5 +1,6 @@
 import './About.scss';
 import { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import AnimatedLetters from '../../components/AnimatedLetters/animation_helper';
 import { FaCss3Alt, FaHtml5, FaReact, FaNode } from 'react-icons/fa6';
 import { IoLogoJavascript } from 'react-icons/io5';
@@ -22,6 +23,11 @@ const About = () => {
         }, []);
 
     return (
+        <>
+        <Helmet>
+            <title>Edwin Edouard | About</title>
+            <meta name='description' content="Hi, I'm Edwin, an emerging Front-End Developer excited to build intuitive, accessible, and remarkable digital user experiences." />
+        </Helmet>
         <div className='container about-page'>
             <div className='text-zone'>
                 <h1>
@@ -95,6 +101,7 @@ const About = () => {
             </div>
 
         </div>
+        </>
     )
 }
 

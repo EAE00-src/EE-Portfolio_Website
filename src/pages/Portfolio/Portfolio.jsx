@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import AnimatedLetters from '../../components/AnimatedLetters/animation_helper';
 import projectData from '../../data/projects.json';
 import RenderProjects from '../../components/ProjectCards/ProjectCards';
+import { Helmet } from 'react-helmet-async';
 
 
 const Portfolio = () => {
@@ -25,6 +26,11 @@ const Portfolio = () => {
 
     
     return (
+        <>
+        <Helmet>
+            <title>Edwin Edouard | Portfolio</title>
+            <meta name='description' content="Here are the projects I've worked on so far..." />
+        </Helmet>
         <div className='container portfolio-page'>
             <h1 className='page-title'>
                 <AnimatedLetters 
@@ -36,6 +42,7 @@ const Portfolio = () => {
             </h1>
             <div> <RenderProjects project={projectData.projects} /> </div>
         </div>
+        </>
     )
 };
 

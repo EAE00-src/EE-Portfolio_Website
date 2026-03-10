@@ -3,6 +3,7 @@ import './contact.scss'
 import { useState, useEffect, useRef } from 'react';
 import AnimatedLetters from '../../components/AnimatedLetters/animation_helper';
 import emailjs from '@emailjs/browser';
+import { Helmet } from 'react-helmet-async';
 
 const Contact = () => {
 
@@ -75,6 +76,12 @@ const Contact = () => {
 
     return (
         <>
+        <Helmet>
+            <title>Edwin Edouard | Contact Me</title>
+            <meta name='description' content="I'm currently looking for my next challenge! Whether you need a freelance collaborator
+                    or a dedicated full-time developer, I'm ready to jump in and create something wonderful!
+                    Feel free to reach out!" />
+        </Helmet>
         <div className='container contact-page'>
             <div className='text-zone'>
                 <h1>
