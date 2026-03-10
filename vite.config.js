@@ -4,7 +4,7 @@ import sitemapPlugin from 'vite-plugin-sitemap'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [
+ base: '/EE-Portfolio_Website/', plugins: [
     react(),
     sitemapPlugin({
       hostname: 'https://EAE00-src.github.io/EE-Portfolio_Website/',
