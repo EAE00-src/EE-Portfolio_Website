@@ -27,6 +27,13 @@
             "title": "Backend Development: Mon Vieux Grimoire",
             "description" : "RESTful API - Node.js - Express - MongoDB - JWT",
             "url": "https://github.com/EAE00-src/backend-dev-nodejs-grimoire"
+        },
+        {
+            "id": 5,
+            "cover": "/project_thumbnails/Booki_project_thumb-optim.webp",
+            "title": "Booki - Responsive Design Project",
+            "description" : "Implementing a responsive interface with HTML & CSS",
+            "url": "https://github.com/EAE00-src/Responsive_HTML-CSS_Project"
         }
     ]
 }

@@ -16,7 +16,7 @@ const About = () => {
                 setLetterClass('text-animate-hover')
                 setDisabledState(true)
                 //x second delay (milliseconds)
-            }, 3000);
+            }, 3300);
             //timeout cleanup
             return () => {clearTimeout(timeoutId)}
         }, []);
@@ -25,7 +25,7 @@ const About = () => {
         <div className='container about-page'>
             <div className='text-zone'>
                 <h1>
-                    <AnimatedLetters letterClass={letterClass} text={`About me`} startIdx={15} disableDelay={disabledState} />
+                    <AnimatedLetters letterClass={letterClass} text={`About`} startIdx={15} disableDelay={disabledState} />
                 </h1>
 
                 <p>

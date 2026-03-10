@@ -106,11 +106,11 @@ const Sidebar = () =>{
             </nav>
             <ul>
                 {/*LinkedIn anchor*/}
-                <li>
+                {/*<li>
                     <a target='_blank' rel='noreferrer' aria-label='Go to LinkedIn' href='#'>
                         <FaLinkedin size={20} aria-hidden='true' />
                     </a>
-                </li>
+                </li>*/}
                 
                 {/*Github anchor*/}
                 <li>
