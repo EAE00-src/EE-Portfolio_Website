@@ -7,10 +7,13 @@
     <script type="text/javascript">
       var pathSegmentsToKeep = 1;
       var l = window.location;
+      var parts = l.pathname.split('/');
+      var repo = parts.slice(0, 1 + pathSegmentsToKeep).join('/');
+      var path = parts.slice(1 + pathSegmentsToKeep).join('/');
+
       l.replace(
       l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-      l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?p=' +
-      l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+      repo + '/?p=' + path.replace(/&/g, '~and~') +
       (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
       l.hash
       );
