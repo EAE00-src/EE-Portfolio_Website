@@ -62,7 +62,8 @@ const About = () => {
                     </ul>
                 <p>
                     I'm always looking for opportunities to grow as <span className='about-span'>I believe that technology should be a bridge,
-                    not a barrier.</span> {' '} So with that said, let's build something that makes a difference!
+                    not a barrier.</span> {' '} So with that said, let's build something that makes a difference! {''}
+                    <a target='_blank' rel='noreferrer' className='mobile-git' aria-label='Go to GitHub' href='https://github.com/EAE00-src'>Check out my GitHub account by clicking here!</a>
                 </p>
             </div>
 

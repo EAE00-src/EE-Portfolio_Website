@@ -6,6 +6,12 @@
     font-style: italic;
     font-weight: bold;
 }
+.mobile-git {
+    display: none;
+    font-style: italic;
+    font-weight: bold;
+    color: $primary-red;
+}
 /*Cube SCSS*/
 .stage-cube-cont{
     width: 50%;
@@ -101,5 +107,8 @@
         width: 100%;
         height: 0%;
         overflow: visible;
+    }
+    .mobile-git{
+        display: block;
     }
 }
