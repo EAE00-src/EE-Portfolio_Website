@@ -17,7 +17,7 @@ const RenderProjects = ({project = []}) => {
                             <p className="title">{proj.title}</p>
                             <h4 className="description">{proj.description}</h4>
                             <button aria-label="Go to project repository" className="btn" onClick={() => window.open(proj.url)}>
-                                View
+                                View Code
                             </button>
                         </div>
                     </div>

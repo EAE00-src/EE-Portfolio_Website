@@ -17,8 +17,8 @@
         {
             "id": 3,
             "cover": "/project_thumbnails/SophieBluel_Dynamicproj_optim.webp",
-            "title": "Sophie Bluel Portfolio Management Tool",
-            "description" : "Frontend gallery with live API integration. Vanilla JS - DOM Manipulation - Modal",
+            "title": "Sophie Bluel Dynamic Portfolio Management",
+            "description" : "Dynamic portfolio w/live API integration. Vanilla JS - DOM Manipulation - Modal",
             "url": "https://github.com/EAE00-src/Dynamic_Webpage-Project"
         },
         {
