@@ -36,14 +36,14 @@ const About = () => {
                 </h1>
 
                 <p>
-                    👋Hi, I'm <span className='about-span'>Edwin</span>, an emerging Front-End Developer excited to build intuitive, accessible, and remarkable digital user experiences.
+                    👋Hi, I'm <span className='about-span'>Edwin</span>, a Web Developer excited to build intuitive, accessible, and high-performance digital user experiences across the entire stack.
                 </p>
 
                 <p>
                     My journey began with a lifelong fascination with how technology shapes our modern world, 
                     leading me to a simple realization: <span className='about-span'>I would love to be one of the people driving the industry forward!</span> 
-                    {' '}I've spent quite some time as a student of OpenClassrooms' Web Developer training program, 
-                    refining my ability to turn complex problems and designs into clean, functional code.
+                    {' '}Thanks to the project-based training from OpenClassrooms' Web Developer program, 
+                    I've refined my ability to turn complex problems into clean, sustainable code, resulting in well-structured database architectures and responsive, dynamic interfaces
                 </p>
                     <ul>
                         <li>
