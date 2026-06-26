@@ -13,8 +13,8 @@
             "cover": "/project_thumbnails/MovieDB_project_optim.webp",
             "title": "MovieDB Tracker Web App",
             "description" : "Movie search & watchlist tracker | React - CSS - TMDB API",
-            "url": "https://github.com/EAE00-src/MovieDB_Movie-Tracker",
-            "action": "View Project Code"
+            "url": "https://moviedb-tracker.vercel.app/",
+            "action": "View Live Project"
         },
         {
             "id": 3,
