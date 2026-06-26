@@ -52,7 +52,7 @@
             "id": 7,
             "cover": "/project_thumbnails/mythinkboard_optim.webp",
             "title": "My ThinkBoard - Full-stack Web App",
-            "description": "Vite + React - Tailwind CSS - DaisyUI - Node.js - Express.js - Upstash Redis",
+            "description": "Vite - React - Tailwind CSS - DaisyUI - Node.js - Express.js - Upstash Redis",
             "url": "https://my-thinkboard.vercel.app/",
             "action": "View Live Project"
         }
