@@ -5,42 +5,56 @@
             "cover": "/project_thumbnails/Kasa_project_optim.webp",
             "title": "Kasa Real Estate",
             "description" : "Property rental SPA | React - Vite - Sass - React Router",
-            "url": "https://github.com/EAE00-src/Kasa_Web-App_React.git"
+            "url": "https://kasa-eae00src.vercel.app/",
+            "action": "View Live Project"
         },
         {
             "id": 2,
             "cover": "/project_thumbnails/MovieDB_project_optim.webp",
             "title": "MovieDB Tracker Web App",
             "description" : "Movie search & watchlist tracker | React - CSS - TMDB API",
-            "url": "https://github.com/EAE00-src/MovieDB_Movie-Tracker"
+            "url": "https://github.com/EAE00-src/MovieDB_Movie-Tracker",
+            "action": "View Project Code"
         },
         {
             "id": 3,
             "cover": "/project_thumbnails/SophieBluel_Dynamicproj_optim.webp",
             "title": "Sophie Bluel Dynamic Portfolio Management",
             "description" : "Dynamic portfolio w/live API integration. Vanilla JS - DOM Manipulation - Modal",
-            "url": "https://github.com/EAE00-src/Dynamic_Webpage-Project"
+            "url": "https://github.com/EAE00-src/Dynamic_Webpage-Project",
+            "action": "View Project Code"
         },
         {
             "id": 4,
             "cover": "/project_thumbnails/database-icon_optim.webp",
             "title": "Backend Development: Mon Vieux Grimoire",
             "description" : "RESTful API - Node.js - Express - MongoDB - JWT",
-            "url": "https://github.com/EAE00-src/backend-dev-nodejs-grimoire"
+            "url": "https://github.com/EAE00-src/backend-dev-nodejs-grimoire",
+            "action": "View Project Code"
         },
         {
             "id": 5,
             "cover": "/project_thumbnails/Booki_project_thumb-optim.webp",
             "title": "Booki - Responsive Design Project",
             "description" : "Implementing a responsive interface with HTML & CSS, version control via Git",
-            "url": "https://github.com/EAE00-src/Responsive_HTML-CSS_Project"
+            "url": "https://booki-project.vercel.app",
+            "action": "View Live Project"
         },
         {
             "id": 6,
             "cover":"/project_thumbnails/Portfolio_thumb_optim.webp",
             "title": "Edwin Edouard | Portfolio site",
             "description": "Vite - React - React-Router - Sass - EmailJS - GSAP - Animate.css - etc. ",
-            "url": "https://github.com/EAE00-src/EE-Portfolio_Website"
+            "url": "https://github.com/EAE00-src/EE-Portfolio_Website",
+            "action": "View Live Project"
+        },
+        {
+            "id": 7,
+            "cover": "/project_thumbnails/mythinkboard_optim.webp",
+            "title": "My ThinkBoard - Full-stack Web App",
+            "description": "Vite + React - Tailwind CSS - DaisyUI - Node.js - Express.js - Upstash Redis",
+            "url": "https://my-thinkboard.vercel.app/",
+            "action": "View Live Project"
         }
     ]
 }
